@@ -3,33 +3,33 @@
  */
 module.exports = {
   network: "core",
-  wNativeAddress: "0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f",
+  wNativeAddress: "0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f",
   v3: {
     // WCORE-USDT 0.3%
-    wNativeStablePoolAddress: "0x2F7ff967771A16004C23e6773d8b753481Fa75c6",
+    wNativeStablePoolAddress: "0x2f7ff967771a16004c23e6773d8b753481fa75c6",
     stableIsToken0: true,
-    factoryAddress: "0xb193245011A41172894553e59a40Cd287168cdd8",
+    factoryAddress: "0xb193245011a41172894553e59a40cd287168cdd8",
     startBlock: 6300935,
     stableCoins: [
-      "0x81bCEa03678D1CEF4830942227720D542Aa15817", // USDT ICE Bridge
-      "0x900101d06A7426441Ae63e9AB3B9b0F63Be145F1", // USDT L0 bridge
-      "0xD2683b22287E63D22928CBe4514003a92507f474", // USDC ICE Bridge
-      "0xa4151B2B3e269645181dCcF2D426cE75fcbDeca9", // USDC L0 Bridge
+      "0x81bcea03678d1cef4830942227720d542aa15817", // USDT ICE Bridge
+      "0x900101d06a7426441ae63e9ab3b9b0f63be145f1", // USDT L0 bridge
+      "0xd2683b22287e63d22928cbe4514003a92507f474", // USDC ICE Bridge
+      "0xa4151b2b3e269645181dccf2d426ce75fcbdeca9", // USDC L0 Bridge
     ],
     whitelistAddresses: [
-      "0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44", // ICE
-      "0x9550Db7d4d7Fb115BD3c5cdEf861E7d7D2F5062a", // WCORE
-      "0x81bCEa03678D1CEF4830942227720D542Aa15817", // USDT ICE Bridge
-      "0x900101d06A7426441Ae63e9AB3B9b0F63Be145F1", // USDT L0 bridge
-      "0xD2683b22287E63D22928CBe4514003a92507f474", // USDC ICE Bridge
-      "0xa4151B2B3e269645181dCcF2D426cE75fcbDeca9", // USDC L0 Bridge
+      "0xc0e49f8c615d3d4c245970f6dc528e4a47d69a44", // ICE
+      "0x9550db7d4d7fb115bd3c5cdef861e7d7d2f5062a", // WCORE
+      "0x81bcea03678d1cef4830942227720d542aa15817", // USDT ICE Bridge
+      "0x900101d06a7426441ae63e9ab3b9b0f63be145f1", // USDT L0 bridge
+      "0xd2683b22287e63d22928cbe4514003a92507f474", // USDC ICE Bridge
+      "0xa4151b2b3e269645181dccf2d426ce75fcbdeca9", // USDC L0 Bridge
     ],
-    nonfungiblePositionManagerAddress: "0xa6C4B4536E1182eE2691FCba7ABee54C456ed196",
+    nonfungiblePositionManagerAddress: "0xa6c4b4536e1182ee2691fcba7abee54c456ed196",
     nonfungiblePositionManagerStartBlock: 6301013,
     minETHLocked: 1,
   },
   masterChefV3: {
-    masterChefAddress: "0x6c6549a2aeFec87Ca9a3615fE3bf6E915Fccfb24",
+    masterChefAddress: "0x6c6549a2aefec87ca9a3615fe3bf6e915fccfb24",
     startBlock: 6301029,
   },
 };
