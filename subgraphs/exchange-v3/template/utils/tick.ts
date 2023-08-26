@@ -41,17 +41,17 @@ export function createTick(tickId: string, tickIdx: i32, poolId: string, event: 
 }
 
 export function feeTierToTickSpacing(feeTier: BigInt): BigInt {
+  if (feeTier.equals(BigInt.fromI32(50000))) {
+    return BigInt.fromI32(1000);
+  }
   if (feeTier.equals(BigInt.fromI32(10000))) {
     return BigInt.fromI32(200);
   }
-  if (feeTier.equals(BigInt.fromI32(2500))) {
-    return BigInt.fromI32(50);
+  if (feeTier.equals(BigInt.fromI32(3000))) {
+    return BigInt.fromI32(60);
   }
-  if (feeTier.equals(BigInt.fromI32(500))) {
-    return BigInt.fromI32(10);
-  }
-  if (feeTier.equals(BigInt.fromI32(100))) {
-    return BigInt.fromI32(1);
+  if (feeTier.equals(BigInt.fromI32(1000))) {
+    return BigInt.fromI32(20);
   }
 
   throw Error("Unexpected fee tier");

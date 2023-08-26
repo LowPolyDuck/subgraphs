@@ -5,7 +5,7 @@ import { BigDecimal, BigInt } from "@graphprotocol/graph-ts";
 import { exponentToBigDecimal, safeDiv } from "./index";
 
 // prettier-ignore
-const WETH_ADDRESS = "0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f";
+const WETH_ADDRESS = "0x9550db7d4d7fb115bd3c5cdef861e7d7d2f5062a";
 // prettier-ignore
 const USDC_WETH_03_POOL = "0x2f7ff967771a16004c23e6773d8b753481fa75c6";
 
