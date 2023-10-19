@@ -8,7 +8,7 @@ module.exports = {
     factoryAddress: "0x9e6d21e759a7a288b80eef94e4737d313d31c13f",
     startBlock: 639892,
     wNativeStablePair0: "0x0000000000000000000000000000000000000000",
-    wNativeStablePair1: "0x8e7dd0d762f60942e0bd05b1114d6cedf4435a18", // USDTi/WBRISE
+    wNativeStablePair1: "0x8e7dd0d762f60942e0bd05b1114d6cedf4435a18", // WBRISE/USDTi
     whitelistAddresses: [
       "0x0eb9036cbe0f052386f36170c6b07ef0a0e3f710", // WBRISE
       "0xb999ea90607a826a3e6e6646b404c3c7d11fa39d", // ICE

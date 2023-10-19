@@ -9,7 +9,7 @@
     "template": "mustache ../../config/%NETWORK%.js subgraph.template.yaml > subgraph.yaml",
     "codegen": "graph codegen subgraph.yaml",
     "build": "graph build subgraph.yaml",
-    "create": "graph create --node http://135.181.114.124:8020/ icecreamswap/blocks-%NETWORK%",
-    "deploy": "graph deploy icecreamswap/blocks-%NETWORK% --node http://135.181.114.124:8020/ --ipfs http://135.181.114.124:5001/ subgraph.yaml"
+    "create": "graph create --node http://localhost:8020/ icecreamswap/blocks-%NETWORK%",
+    "deploy": "graph deploy icecreamswap/blocks-%NETWORK% --node http://localhost:8020/ --ipfs http://localhost:5001/ subgraph.yaml"
   }
 }

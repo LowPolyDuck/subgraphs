@@ -3,7 +3,7 @@
  */
 module.exports = {
   network: "core",
-  wNativeAddress: "0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f", // for V2 subgraph, use old WCORE: 0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f, rest 0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f
+  wNativeAddress: "0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f", // for V2 subgraph, use old WCORE: 0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f, rest 0x9550Db7d4d7Fb115BD3c5cdEf861E7d7D2F5062a
   v3: {
     // WCORE-USDT 0.3%
     wNativeStablePoolAddress: "0x2f7ff967771a16004c23e6773d8b753481fa75c6",
@@ -36,7 +36,7 @@ module.exports = {
     factoryAddress: "0x9e6d21e759a7a288b80eef94e4737d313d31c13f",
     startBlock: 852448,
     wNativeStablePair0: "0x0000000000000000000000000000000000000000",
-    wNativeStablePair1: "0x23a776980962cf489130d8a936d2953fdf3e6aa1", // USDT(l0)/WCORE
+    wNativeStablePair1: "0x23a776980962cf489130d8a936d2953fdf3e6aa1", // WCORE/USDT(l0)
     whitelistAddresses: [
       "0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f", // WCORE old
       "0x9550db7d4d7fb115bd3c5cdef861e7d7d2f5062a", // WCORE new
