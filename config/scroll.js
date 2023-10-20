@@ -3,7 +3,7 @@
  */
 module.exports = {
   network: "scroll",
-  wNativeAddress: "0x0eb9036cbe0f052386f36170c6b07ef0a0e3f710",
+  wNativeAddress: "0x5300000000000000000000000000000000000004",
   v2: {
     factoryAddress: "0x9e6d21e759a7a288b80eef94e4737d313d31c13f",
     startBlock: 84922,

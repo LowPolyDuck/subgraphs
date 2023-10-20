@@ -3,7 +3,7 @@
  */
 module.exports = {
   network: "telos",
-  wNativeAddress: "0x0eb9036cbe0f052386f36170c6b07ef0a0e3f710",
+  wNativeAddress: "0xdc2393dc10734bf153153038943a5deb42b209cd",
   v2: {
     factoryAddress: "0x9e6d21e759a7a288b80eef94e4737d313d31c13f",
     startBlock: 286182911,
