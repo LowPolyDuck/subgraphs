@@ -45,5 +45,6 @@ module.exports = {
       "0xc0e49f8c615d3d4c245970f6dc528e4a47d69a44", // ICE
       "0xa20b3b97df3a02f9185175760300a06b4e0a2c05", // SCORE
     ],
+    minNativeForPricing: "200",
   },
 };

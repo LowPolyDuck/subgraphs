@@ -15,5 +15,6 @@ module.exports = {
       "0xc57f0eb99363e747d637b17bbdb4e1ab85e60631", // USDT (ice bridge)
       "0xb25cb6a275a8d6a613228fb161eb3627b50eb696", // USDC (ice bridge)
     ],
+    minNativeForPricing: "2000",
   },
 };

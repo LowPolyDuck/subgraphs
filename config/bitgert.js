@@ -20,5 +20,6 @@ module.exports = {
       "0xea61dc96f105469522d39cbf7bd59b42393678f7", // ETHi
       "0xaedd3ff7b9fc5fc4e44d140b80f0b1c7fdb6102c", // USDCi
     ],
+    minNativeForPricing: "1000000000",
   },
 };

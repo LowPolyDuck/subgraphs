@@ -16,5 +16,6 @@ module.exports = {
       "0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4", // USDC Scroll Bridge
       "0xf55bec9cafdbe8730f096aa55dad6d22d44099df", // USDT Scroll Bridge
     ],
+    minNativeForPricing: "0.1",
   },
 };

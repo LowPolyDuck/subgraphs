@@ -16,5 +16,6 @@ module.exports = {
       "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913", // USDC Base Bridge
       "0x50c5725949a6f0c72e6c4a641f24049a917db0cb", // Dai base bridge
     ],
+    minNativeForPricing: "0.1",
   },
 };

@@ -14,5 +14,6 @@ module.exports = {
       "0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f", // ICE
       "0xc0e49f8c615d3d4c245970f6dc528e4a47d69a44", // USDTi
     ],
+    minNativeForPricing: "2000",
   },
 };
