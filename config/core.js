@@ -3,13 +3,13 @@
  */
 module.exports = {
   network: "core",
-  wNativeAddress: "0x9550db7d4d7fb115bd3c5cdef861e7d7d2f5062a", // for V2 subgraph, use old WCORE: 0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f, rest 0x9550db7d4d7fb115bd3c5cdef861e7d7d2f5062a
+  wNativeAddress: "0xb0788b601c0d712702bc829b52771199ad8e33ff", // for V2 subgraph, use old WCORE: 0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f, rest 0xb0788b601c0d712702bc829b52771199ad8e33ff
   v3: {
     // WCORE-USDT 0.3%
-    wNativeStablePoolAddress: "0x761900d52c13c0ec76b2fb117fe3d3674339fe15",
+    wNativeStablePoolAddress: "0xf64b900e5dd4e6a358bee114206e291058aee682",
     stableIsToken0: true,
-    factoryAddress: "0x0dc54cd1356e3ca8e876a4d44512325d8b2dc589",
-    startBlock: 7942233,
+    factoryAddress: "0xa8a3AAD4f592b7f30d6514ee9A863A4cEFF6531D",
+    startBlock: 9212906,
     stableCoins: [
       "0x81bcea03678d1cef4830942227720d542aa15817", // USDT ICE Bridge
       "0x900101d06a7426441ae63e9ab3b9b0f63be145f1", // USDT L0 bridge
@@ -24,13 +24,13 @@ module.exports = {
       "0xd2683b22287e63d22928cbe4514003a92507f474", // USDC ICE Bridge
       "0xa4151b2b3e269645181dccf2d426ce75fcbdeca9", // USDC L0 Bridge
     ],
-    nonfungiblePositionManagerAddress: "0xfb7bcf090937f870e6e72f9a31e0839aa2a7b513",
-    nonfungiblePositionManagerStartBlock: 7942239,
+    nonfungiblePositionManagerAddress: "0xe944Fa9AE06680FDfDc782f8bEfE2F03bf9a902C",
+    nonfungiblePositionManagerStartBlock: 9212912,
     minETHLocked: 1,
   },
   masterChefV3: {
-    masterChefAddress: "0xbf66585582e5ad5353d9067df3e9394c305bd731",
-    startBlock: 7942243,
+    masterChefAddress: "0xc378c540A8CD4e2F7475a1850d9E854C1Ea8b9E8",
+    startBlock: 9212916,
   },
   v2: {
     factoryAddress: "0x9e6d21e759a7a288b80eef94e4737d313d31c13f",
