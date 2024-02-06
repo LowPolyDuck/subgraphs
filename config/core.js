@@ -5,8 +5,8 @@ module.exports = {
   network: "core",
   wNativeAddress: "0xb0788b601c0d712702bc829b52771199ad8e33ff".toLowerCase(), // for V2 subgraph, use old WCORE: 0x40375c92d9faf44d2f9db9bd9ba41a3317a2404f, rest 0xb0788b601c0d712702bc829b52771199ad8e33ff
   v3: {
-    // WCORE-USDT 0.3%
-    wNativeStablePoolAddress: "0xf64b900e5dd4e6a358bee114206e291058aee682".toLowerCase(),
+    // WCORE-USDT(L0) 0.1%
+    wNativeStablePoolAddress: "0x6063d72ab87a879ba25c68ad09af3937f55a99a8".toLowerCase(),
     stableIsToken0: true,
     factoryAddress: "0xa8a3AAD4f592b7f30d6514ee9A863A4cEFF6531D".toLowerCase(),
     startBlock: 9212906,
@@ -18,7 +18,8 @@ module.exports = {
     ],
     whitelistAddresses: [
       "0xc0e49f8c615d3d4c245970f6dc528e4a47d69a44".toLowerCase(), // ICE
-      "0x9550db7d4d7fb115bd3c5cdef861e7d7d2f5062a".toLowerCase(), // WCORE
+      "0xb0788B601C0D712702bc829B52771199ad8E33Ff".toLowerCase(), // WCORE
+      "0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f".toLowerCase(), // WCORE_OLD
       "0x81bcea03678d1cef4830942227720d542aa15817".toLowerCase(), // USDT ICE Bridge
       "0x900101d06a7426441ae63e9ab3b9b0f63be145f1".toLowerCase(), // USDT L0 bridge
       "0xd2683b22287e63d22928cbe4514003a92507f474".toLowerCase(), // USDC ICE Bridge
