@@ -16,4 +16,3 @@ module.exports = {
     minNativeForPricing: "0.1",
   },
 };
-
