@@ -6,10 +6,10 @@
   "author": "PancakeSwap",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "template": "mustache ../../config/%NETWORK%.js subgraph.template.yaml > subgraph.yaml && mustache ../../config/%NETWORK%.js mappings/utils/index.template.ts > mappings/utils/index.ts && mustache ../../config/%NETWORK%.js mappings/pricing.template.ts > mappings/pricing.ts",
+    "template": "mustache ../../config/mezo.js subgraph.template.yaml > subgraph.yaml && mustache ../../config/mezo.js mappings/utils/index.template.ts > mappings/utils/index.ts && mustache ../../config/mezo.js mappings/pricing.template.ts > mappings/pricing.ts",
     "codegen": "graph codegen subgraph.yaml",
     "build": "graph build subgraph.yaml",
-    "create": "graph create --node http://localhost:8020/ icecreamswap/exchange-v2-%NETWORK%",
-    "deploy": "graph deploy icecreamswap/exchange-v2-%NETWORK% --node http://localhost:8020/ --ipfs http://localhost:5001/ subgraph.yaml"
+    "create": "graph create --node http://localhost:8020/ dumpyswap/exchange-v2-mezo",
+    "deploy": "graph deploy dumpyswap/exchange-v2-mezo --node http://localhost:8020/ --ipfs http://localhost:5001/ subgraph.yaml"
   }
 }

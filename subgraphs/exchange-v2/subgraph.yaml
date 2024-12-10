@@ -6,14 +6,14 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: core
+    network: mezo
     source:
-      address: "0x9e6d21e759a7a288b80eef94e4737d313d31c13f"
+      address: "0xb27feff52c463602aa9d939dc090b46439134119"
       abi: Factory
-      startBlock: 852448
+      startBlock: 523168
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/factory.ts
       entities:
@@ -34,12 +34,12 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: core
+    network: mezo
     source:
       abi: Pair
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.4
+      apiVersion: 0.0.5
       language: wasm/assemblyscript
       file: ./mappings/core.ts
       entities:
