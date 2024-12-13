@@ -11,5 +11,9 @@
     "build": "graph build subgraph.yaml",
     "create": "graph create --node http://localhost:8020/ dumpyswap/exchange-v2-mezo",
     "deploy": "graph deploy dumpyswap/exchange-v2-mezo --node http://localhost:8020/ --ipfs http://localhost:5001/ subgraph.yaml"
+  },
+  "devDependencies": {
+    "@graphprotocol/graph-cli": "^0.21.0",
+    "@graphprotocol/graph-ts": "^0.20.0"
   }
 }
